@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Thiago Soares",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
