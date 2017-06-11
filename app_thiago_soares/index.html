@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<title>Álbum de Fotos</title>
-	</head>
-	<body>
-		<nav>
-			<a href="#/1">Menu 1</a>
-			<a href="#/2">Menu 2</a>
-			<a href="#/3">Menu 3</a>
-			<a href="#/4">Menu 4</a>
-			<a href="#/5">Menu 5</a>
-		</nav>
-		<header>
-			<span>Path</span>
-			<h1>Título página 1</h1>
-		</header>
-		<section>
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-			<img src="http://lorempixel.com/600/400" alt="Foto">
-		</section>
-	</body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Álbum de Fotos</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+				 aria-expanded="false">
+					<spam class="glyphicon glyphicon-menu-hamburger"></spam>
+				</button>
+				<a class="navbar-brand" href="#">Acme photos</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Painel de fotos<span class="sr-only">(current)</span></a></li>
+					<li><a href="#/album">Fotos do álbum</a></li>
+					<li><a href="#/busca">Busca de fotos</a></li>
+					<li><a href="#/albuns">Lista de álbuns</a></li>
+					<li><a href="#/slideshow">Slideshow</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<header>
+		<span>Path</span>
+		<h1>Título página 1</h1>
+	</header>
+	<section>
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+		<img src="http://lorempixel.com/600/400" alt="Foto">
+	</section>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
