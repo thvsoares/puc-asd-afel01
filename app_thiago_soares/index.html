@@ -15,8 +15,7 @@
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
-				 aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 					<spam class="glyphicon glyphicon-menu-hamburger"></spam>
 				</button>
 				<a class="navbar-brand" href="#">Acme photos</a>
@@ -26,7 +25,6 @@
 			<div class="collapse navbar-collapse" id="menu">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">Painel de fotos<span class="sr-only">(current)</span></a></li>
-					<li><a href="#/album">Fotos do álbum</a></li>
 					<li><a href="#/busca">Busca de fotos</a></li>
 					<li><a href="#/albuns">Lista de álbuns</a></li>
 					<li><a href="#/slideshow">Slideshow</a></li>
@@ -37,8 +35,12 @@
 		<!-- /.container-fluid -->
 	</nav>
 	<header>
-		<span>Path</span>
-		<h1>Título página 1</h1>
+		<ol class="breadcrumb visible-sm">
+			<li><a href="#">Painel de fotos</a></li>
+			<li><a href="#/albuns">Lista de álbuns</a></li>
+			<li class="active">Fotos do álbum</li>
+		</ol>
+		<h1>Fotos do álbum</h1>
 	</header>
 	<section>
 		<img src="http://lorempixel.com/600/400" alt="Foto">
@@ -55,4 +57,5 @@
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
