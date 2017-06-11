@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thvsoares/puc-asd-afel01.git"
   }
 }
